@@ -476,11 +476,11 @@ p {
 #main-nav {
     width: 100%;
     text-align: center;
-    border-color: #616161;
+    border-color: black;
 }
 .navbar-inverse {
-    background-color: transparent;
-    border-color: transparent;
+    background-color: black;
+    border-color: black;
 }
 
 .navbar {
@@ -591,16 +591,10 @@ p {
 .top_cont_outer {
     position: relative;
     /* height: 750px; */
-    background: url('../img/me_cover.png') no-repeat;
     background-size: cover;
-    background: #fff;
+    background: black;
 }
 
-.top_cont_outer img {
-    max-width:100%;
-    height:auto;
-    position:absolute;
-}
 .top_cont_outer:before{/* content:''; */position:absolute;top:0;width:100%;z-index:5;/* background: rgba(25, 25, 25, 0.7); */height:100%;bottom:0;}
 .hero_section {
     position: relative;
@@ -621,30 +615,37 @@ p {
 }
 
 .top_left_cont {
-    padding: 100px 50px 100px 0;
+    padding: 80px 50px 80px 50px;
 }
 
 .top_left_cont h3 {
     font-size: 16px;
     color: #f56eab;
-    margin: 0 0 20px 0;
-    text-align: left;
+    margin: 0 20px 20px 0;
+    text-align: center;
     font-weight: 700;
 }
 
 .top_left_cont h2 {
-    font-size: 45px;
+    font-size: 60px;
     color: white;
     margin: 0 0 0px 0;
     font-family: 'Raleway', sans-serif;
-    text-align: right;
+    text-align: center;
     line-height: 77px;
     text-transform: initial;
     font-weight: 700;
 }
 
 
-.top_left_cont p {color: white;margin: 0 0 60px 0;line-height: 24px;font-size: 15px;text-align: right;letter-spacing: .5px;font-weight: normal;}
+.top_left_cont p {
+    color: white;
+    margin: 0 60px 60px 0;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: .5px;
+    font-weight: lighter;}
 
 a.read_more, a.read_more2 {
     font-family: 'Raleway', sans-serif;
@@ -2489,9 +2490,9 @@ position: relative;
 padding-top: 10px;
 }
 .top_left_cont {
-padding: 38px 0;
+padding: 50px 20px 50px 20px;
 }
-.top_left_cont h2 {font-size: 25px;/* color: #FFF; */line-height: 39px;margin: 0 0 9px 0;}
+.top_left_cont h2 {font-size: 30px;/* color: #FFF; */line-height: 39px;margin: 0 0 9px 0;}
 .inner_section {
 padding: 20px 0 20px;
 }
