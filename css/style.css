@@ -412,7 +412,7 @@ h2 {
     color: black;
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
-    margin: 0px 0 25px 0;
+    margin: 0px 0 40px 0;
     text-align: center;
     text-transform: capitalize;
 }
@@ -455,7 +455,7 @@ p {
 ---------------------------------*/
 
 #header_wrapper {
-    background: rgb(0, 0, 0);
+    background: #4a1f5c;
     padding: 5px 0px;
     /* border-bottom: 1px solid #383838; */
 }
@@ -481,11 +481,11 @@ p {
 #main-nav {
     width: 100%;
     text-align: center;
-    border-color: black;
+    border-color: #4a1f5c;
 }
 .navbar-inverse {
-    background-color: black;
-    border-color: black;
+    background-color: #4a1f5c;
+    border-color: #4a1f5c;
 }
 
 .navbar {
@@ -597,7 +597,7 @@ p {
     position: relative;
     /* height: 750px; */
     background-size: cover;
-    background: black;
+    background: #4a1f5c;
 }
 
 .top_cont_outer:before{/* content:''; */position:absolute;top:0;width:100%;z-index:5;/* background: rgba(25, 25, 25, 0.7); */height:100%;bottom:0;}
@@ -821,7 +821,7 @@ a.read_more:hover {
 
 .work_bottom span {
     font-size: 18px;
-    color: #333333;
+    color: #4a1f5c;
     display: block;
     margin: 0 0 20px 0;
 }
@@ -1036,9 +1036,12 @@ img {
 }
 
 .page_section.team {
-    padding: 40px 0 80px;
+    padding: 40px 0 20px;
 }
 
+.page_section.team.one {
+    padding: 0px 0 0px;
+}
 .page_section.team h6 {
     margin-bottom: 40px;
 }
@@ -1616,7 +1619,7 @@ border: 1px solid #CE1139;
 }
 
 #filters ul li a:hover h5, #filters ul li a.active h5 {
-    background: #000000;
+    background: #4a1f5c;
     color: #ffffff;
     text-decoration: none;
     border: #000000 solid 1px;
