@@ -42,6 +42,57 @@ ul {
     top:30%;
 }
 
+.contact {
+    background-color:purple;
+    width:100%;
+    height: 100px;
+}
+
+h3 .special {
+    color:purple;
+}
+
+body #bod {
+    background-color:purple;
+}
+
+
+#twilight {
+    background-color:#005893;
+}
+
+#trueblue {
+    background-color:#18A0FB;
+}
+
+#babyblue {
+    background-color:#8BCFFD;
+}
+
+#bubblegum {
+    background-color:#F5499C;
+}
+
+
+
+#deepblue {
+    background-color:#352189;
+}
+
+#pastelpurple {
+    background-color:#8F76F8;
+}
+
+#fusiaa {
+    background-color:#B94FAE;
+}
+
+#sherbertt {
+    background-color:#FF7B7B;
+}
+
+
+
 #bulbpink {
     background-color:#ef5ba1;
 }
@@ -427,12 +478,22 @@ h2 {
     text-transform: capitalize;
 }
 
+.me {
+    display:block;
+    width:50%;
+    margin-left:auto;
+    margin-right: auto;
+    align-items: center;
+
+}
+
 h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    color: #ffffff;
+    text-align: center;
+    color: black;
     font-size: 18px;
-    margin: 0 0 5px 0;
+    margin: 0 0 25px 0;
 }
 
 h6 {
@@ -1484,7 +1545,7 @@ border: 1px solid #CE1139;
 ---------------------------------*/
 
 .footer_wrapper {
-    background: #000000;
+    background: #4a1f5c;
 }
 
 .footer_bottom {

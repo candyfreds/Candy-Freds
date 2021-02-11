@@ -20,7 +20,7 @@
 
  
 </head>
-<body>
+<body id="bod">
 
 <!--Header_section-->
 <header id="header_wrapper"> 
@@ -34,12 +34,11 @@
       <ul class="nav navbar-nav" id="mainNav">
         <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
         <li><a href="#Portfolio" class="scroll-link">Projects</a></li>
+        <li><a href="#team" class="scroll-link">Video</a></li>
         <li><a href="#aboutUs" class="scroll-link">About Me</a></li>
         <li><a href="#service" class="scroll-link">Skills</a></li>
         <li><a href="#experience" class="scroll-link">Experience</a></li>
-        
-        <li><a href="#team" class="scroll-link">Video</a></li>
-        <li><a href="#contact" class="scroll-link">Contact</a></li>
+        <li><a href="contact.html" class="scroll-link">Contact</a></li>
       </ul>
       </div>
    </nav>
@@ -79,14 +78,11 @@
         <li><a class="editorialdesign" href="#" data-filter=".editorial">
           <h5>Editorial Design</h5>
           </a></li>
-        <li><a class="visualdata" href="#" data-filter=".vd">
-          <h5>Visual Data Analysis</h5>
-          </a></li>
         <li><a class="webdesign" href="#" data-filter=".web">
           <h5>Ui/Ux</h5>
           </a></li>
         <li><a class="other" href="#" data-filter=".other">
-          <h5>Other Stuff</h5>
+          <h5>Random</h5>
           </a></li>
       </ul>
     </div>
@@ -94,6 +90,8 @@
     
     <!-- Portfolio Wrapper -->
     <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">  
+      
+
       <!-- Portfolio Item -->
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   brand  editorial  isotope-item effect-oscar">
 	   
@@ -106,6 +104,21 @@
 				  </a>
 				</div>
 			</figcaption>
+        </figure>
+      <!--/Portfolio Item --> 
+
+            <!-- Portfolio Item -->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   brand  web  isotope-item effect-oscar">
+     
+        <div class="portfolio_img"> 
+    <img src="img/flow_cover.png"  alt="Portfolio 1"> </div> 
+      <figcaption>    
+        <div>
+          <a href="flow.html" class="fancybox"> 
+          <h2 class="different">Flow</h2> 
+          </a>
+        </div>
+      </figcaption>
         </figure>
       <!--/Portfolio Item --> 
       
@@ -121,6 +134,20 @@
 			</figcaption>
         </figure>
       <!--/Portfolio Item -->
+
+         <!-- Portfolio Item-->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/pk_cover.png" alt="Portfolio 1"> </div>
+         <figcaption>   
+        <div>
+          <a href="parkingkitty.html" class="fancybox"> 
+          <h2 class="different">Parking Kitty</h2> 
+          </a>
+        </div>
+      </figcaption>
+      </figure>
+      <!-- Portfolio Item --> 
+
                   <!-- Portfolio Item-->
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  editorial isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="img/lucid_cover.png" alt="Portfolio 1"> </div>
@@ -133,6 +160,8 @@
 			</figcaption>
       </figure>
       <!-- Portfolio Item --> 
+
+  
 
             <!-- Portfolio Item -->
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  brand isotope-item effect-oscar">
@@ -159,18 +188,7 @@
 			</figcaption>
        </figure>
       <!--/Portfolio Item -->
-      <!-- Portfolio Item-->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  vd isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="img/youvsmecover.png" alt="Portfolio 1"> </div>
-         <figcaption>		
-				<div>
-				  <a href="img/youvsme.png" class="fancybox"> 
-					<h2 class="different">Me vs You</h2> 
-				  </a>
-				</div>
-			</figcaption>
-      </figure>
-      <!-- Portfolio Item --> 
+
 
             <!-- Portfolio Item -->
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   brand isotope-item effect-oscar">
@@ -212,7 +230,7 @@
       <!--/Portfolio Item -->
 
             <!-- Portfolio Item-->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  vd isotope-item effect-oscar">
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  other isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="img/pyscho_cover.png" alt="Portfolio 1"> </div>
          <figcaption>		
 				<div>
@@ -237,7 +255,7 @@
         </figure>
       <!--/Portfolio Item-->
                   <!-- Portfolio Item-->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  vd isotope-item effect-oscar">
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  other isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="img/type_cover.png" alt="Portfolio 1"> </div>
          <figcaption>		
 				<div>
@@ -261,6 +279,18 @@
 			</figcaption>
       </figure>
       <!-- Portfolio Item --> 
+            <!-- Portfolio Item-->
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  other isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/youvsmecover.png" alt="Portfolio 1"> </div>
+         <figcaption>   
+        <div>
+          <a href="img/youvsme.png" class="fancybox"> 
+          <h2 class="different">Me vs You</h2> 
+          </a>
+        </div>
+      </figcaption>
+      </figure>
+      <!-- Portfolio Item --> 
       
 
       
@@ -277,7 +307,7 @@
       </figure>
       <!--/Portfolio Item --> 
                   <!-- Portfolio Item -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   brand isotope-item effect-oscar">
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   other isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="img/bandposter.png" alt="Portfolio 1"> </div>       
       <figcaption>		
 				<div>
@@ -302,7 +332,7 @@
 			</figcaption>
         </figure>
       <!--/Portfolio Item --> 
-                  <!-- Portfolio Item-->
+      <!-- Portfolio Item-->
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  other isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="img/dreamcover.png" alt="Portfolio 1"> </div>
          <figcaption>		
@@ -326,37 +356,16 @@
 				</div>
 			</figcaption>
         </figure>
-      <!--/Portfolio Item --> 
-
-            <!-- Portfolio Item -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   brand isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="img/bulb_cover.png" alt="Portfolio 1"> </div>       
-      <figcaption>		
-				<div>
-				  <a href="redbulb.html" class="fancybox"> 
-					<h2 class="different">Red Bulb</h2> 
-				  </a>
-				</div>
-			</figcaption>
-        </figure>
-      <!--/Portfolio Item --> 
-
-      
+      <!--/Portfolio Item -->
     </div>
-    <!--/Portfolio Wrapper --> 
-    
+    <!--/Portfolio Wrapper -->
   </div>
   <!--/Portfolio Filters -->
-  
-  
-  
   <div id="project_container">
     <div class="clear"></div>
     <div id="project_data"></div>
   </div>
- 
-  
-</section>
+ </section>
 <!--/Portfolio -->
 
 <section class="page_section team" id="team"><!--main-section team-start-->
